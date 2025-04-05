@@ -1,3 +1,38 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+# Theme and basic settings
+remote_theme: just-the-docs/just-the-docs
+title: Tech Journey Blog
+description: Documenting my software engineering adventures
+
+# Navigation Settings
+aux_links:
+  "GitHub":
+    - "//github.com/yourusername"
+
+# Color scheme
+color_scheme: dark
+
+# Enable search
+search_enabled: true
+
+# Additional customization
+heading_anchors: true
+
+# Plugin settings
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+
+# Enable copy code button
+enable_copy_code_button: true
+
+# Footer settings
+footer_content: "Copyright &copy; 2024 Your Name. Powered by [Just the Docs](https://github.com/just-the-docs/just-the-docs)"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Google Analytics (optional)
+# ga_tracking: UA-XXXXXXXX-X
+# ga_tracking_anonymize_ip: true
