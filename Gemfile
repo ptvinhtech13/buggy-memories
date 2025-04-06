@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 
+gem "csv"
+gem "base64"
+gem "faraday-retry"
+
 gem "jekyll", "~> 4.3.2"
 gem "just-the-docs"
 
@@ -16,9 +20,10 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo-data"
 end
 
-# Performance-booster for watching directories on Windows
+# # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
-gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby] 
+gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+
