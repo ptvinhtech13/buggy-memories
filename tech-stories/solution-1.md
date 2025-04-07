@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Solution 1
-parent: Tech Journey
+title: Redis Caching Solution
+parent: Technical Story
 nav_order: 1
 date: 2024-03-20
 description: How I solved a challenging caching issue in Redis

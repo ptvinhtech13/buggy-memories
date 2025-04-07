@@ -1,13 +1,50 @@
 // Modern color palette
-$primary-color: #2962ff;
-$secondary-color: #0039cb;
-$background-color: #1a1a1a;
-$text-color: #ffffff;
+// Override background colors
+
+@import "color_schemes/vinta";
 
 // Typography
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   line-height: 1.6;
+  background-color: $header-background-color !important;
+  color: $body-text-color !important;
+}
+
+.site-footer {
+  visibility: hidden;
+}
+
+.highlight,
+pre.highlight {
+  background: #31343f;
+  color: $secondary-heading-color-05;
+}
+
+
+
+.main-header,.search-input, .search-input-wrap {
+  background-color: transparent !important;
+}
+
+@media (min-width: 66.5rem) {
+  .side-bar {
+      width: max(16.5rem, (100% - 66.5rem) / 2 + 2.5rem);
+  }
+  .side-bar+.main {
+    margin-left: max(16.5rem, (100% - 66.5rem) / 2 + 2.5rem);
+  }
+}
+
+@media (min-width: 50rem) {
+  .main-content-wrap {
+      padding-right: 1rem;
+      padding-left: 2rem;
+  }
+}
+
+.main-content-wrap {
+  width: 950px;
 }
 
 // Modern card design
@@ -26,7 +63,7 @@ body {
     margin-top: 0;
     
     a {
-      color: $primary-color;
+      color: $secondary-heading-color;
       text-decoration: none;
       
       &:hover {

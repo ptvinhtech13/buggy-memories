@@ -1,15 +1,19 @@
 # Theme and basic settings
 remote_theme: just-the-docs/just-the-docs
-title: Tech Journey Blog
-description: Documenting my software engineering adventures
+title: Buggy Memory
+description: Free sharing of technical knowledge, experience, insights and more
 
 # Navigation Settings
 aux_links:
   "GitHub":
-    - "//github.com/yourusername"
+    - "//github.com/ptvinhtech13"
 
 # Color scheme
-color_scheme: dark
+color_scheme: vinta
+
+sass:
+  sass_dir: _sass
+  style: compressed # Optional: compresses the output CSS
 
 # Enable search
 search_enabled: true
@@ -27,7 +31,7 @@ plugins:
 enable_copy_code_button: true
 
 # Footer settings
-footer_content: "Copyright &copy; 2024 Your Name. Powered by [Just the Docs](https://github.com/just-the-docs/just-the-docs)"
+footer_content: "Copyright &copy; 2025 VinTa Inc. Powered by VinTa Inc."
 
 # Back to top link
 back_to_top: true

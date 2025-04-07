@@ -1,0 +1,43 @@
+$color-scheme: vinta;
+
+$base-button-color: $grey-dk-250;
+$code-background-color: #31343f; // OneDarkJekyll default for syntax-one-dark-vivid
+$code-linenumber-color: #dee2f7; // OneDarkJekyll .nf for syntax-one-dark-vivid
+
+$table-background-color: $grey-dk-250;
+$search-background-color: $grey-dk-250;
+$search-result-preview-color: $grey-dk-000;
+$border-color: $grey-dk-200;
+
+
+$btn-primary-color: #ed1a39;
+
+
+$primary-background-color: #090910;
+$secondary-heading-color: #F8DF8B;
+$secondary-heading-color-01: #f9e297;
+$secondary-heading-color-02: #f9e5a2;
+$secondary-heading-color-03: #fae9ae;
+$secondary-heading-color-04: #fbecb9;
+$secondary-heading-color-05: #fdf5dc;
+
+$secondary-heading-color-11: #dfc97d;
+$secondary-heading-color-12: #c6b26f;
+$secondary-heading-color-13: #958653;
+$secondary-heading-color-14: #7c7046;
+$secondary-heading-color-15: #4a432a;
+
+
+$sidebar-color: $primary-background-color;
+$header-background-color: $primary-background-color;
+
+$feedback-color: darken(#31343f, 3%);
+
+$body-heading-color: $secondary-heading-color;
+$body-text-color: $secondary-heading-color-05;
+$link-color: $secondary-heading-color;
+$header-text-color: $secondary-heading-color-05;
+$nav-child-link-color: $secondary-heading-color;
+
+
+@import "./vendor/OneDarkJekyll/syntax"; // this is the one-dark-vivid atom syntax theme

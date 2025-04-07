@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Tech Journey
+title: Technical Story
 nav_order: 2
 has_children: true
-permalink: /tech-journey
+permalink: /tech-story
 ---
 
-# Tech Journey
+# Tech Stories
 
 Welcome to my technical documentation collection. Here you'll find detailed solutions, learnings, and experiences from my software engineering journey.
 
