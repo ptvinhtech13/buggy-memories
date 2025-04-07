@@ -6,7 +6,7 @@ nav_order: 3 # Adjust as needed
 
 # About Me
 
-<img src="/assets/images/vinh-avatar.png" alt="Vinh Pham Profile Picture" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; float: right; margin-left: 20px;" />
+<img src="{{ '/assets/images/vinh-avatar.png' | relative_url }}" alt="Vinh Pham Profile Picture" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; float: right; margin-left: 20px;" />
 
 > *"No pain, No gain"*
 
