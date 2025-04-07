@@ -43,9 +43,17 @@ pre.highlight {
   }
 }
 
-.main-content-wrap {
-  width: 950px;
+
+@media (min-width: 66.5rem) {
+  .main {
+    position: relative;
+    max-width: 950px;
+  } 
+  .main-content-wrap {
+    width: 950px;
+  }
 }
+
 
 // Modern card design
 .post-card {
